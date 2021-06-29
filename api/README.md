@@ -13,3 +13,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Runs the test suite.
+
+### `npm run build`
+
+Builds the api for production to the `build` folder.
