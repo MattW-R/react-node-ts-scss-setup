@@ -1,4 +1,4 @@
-import express = require('express')
+import express from 'express'
 
 const routes = (app: express.Application): void => {
     app.get('/', (req: express.Request, res: express.Response) => {
