@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon",
-    "build": "rimraf build && tsc && cp package.json build/package.json && npm --prefix ./build install ./build --only=prod"
+    "build": "rimraf build && tsc && cp package.json build/package.json && npm --prefix ./build install ./build --only=prod && rimraf build/package.json && rimraf build/package-lock.json"
   },
   "author": "",
   "license": "ISC",
